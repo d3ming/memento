@@ -13,14 +13,16 @@ make install
 ```
 
 
-###Test:
+###Run Server:
 ```
-make test
+make server
 ```
 
 
 API:
 ----
+
+WIP...
 
 ###POST: /api/v1/entries/
 

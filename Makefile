@@ -1,9 +1,6 @@
 install:
-	pip install -e .
+	pip install -r requirements.txt
 
-.PHONY: flake
-flake: install
-	flake8
-
-.PHONY: test
-test: install flake
+.PHONY: server
+server: install
+	python server.py
