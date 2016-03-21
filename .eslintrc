@@ -10,7 +10,9 @@
     "rules": {
       "no-var": 0,
       "comma-dangle": 0,
-      "react/prop-types": 1
+      "react/prop-types": 1,
+      "no-console": 1,
+      "no-extra-boolean-cast": 0
     },
     "extends": [
       "eslint:recommended",
