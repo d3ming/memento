@@ -9,7 +9,7 @@ var Home = React.createClass({
                 <p className='lead'>Be awesome!</p>
             </MainContainer>
         );
-    },
+    }
 });
 
 module.exports = Home;

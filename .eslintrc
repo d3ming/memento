@@ -8,9 +8,12 @@
       "react"
     ],
     "rules": {
-      "no-var": 0
+      "no-var": 0,
+      "comma-dangle": 0,
+      "react/prop-types": 1
     },
     "extends": [
-      "airbnb"
+      "eslint:recommended",
+      "plugin:react/recommended"
     ]
 }
