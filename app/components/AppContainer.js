@@ -1,4 +1,5 @@
 var React = require('react');
+var MainContainer = require('./MainContainer');
 
 var AppContainer = React.createClass({
   getInitialState: function() {
@@ -22,9 +23,10 @@ var AppContainer = React.createClass({
       }
   },
   render: function() {
-    return (<div className="jumbotrol col-sm-12 text-center">
+    return (
+      <MainContainer>
         <h1>Memento - {this.state.name}!</h1>
-    </div>
+      </MainContainer>
     );
   }
 });
